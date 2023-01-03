@@ -1,1 +1,1 @@
-CAST(TODATETIMEOFFSET(Table.[DateCol],'-00:00') AT TIME ZONE 'AUS Eastern Standard Time' As datetime) as createdon
+CAST(TODATETIMEOFFSET(Table.[DateCol],'-00:00') AT TIME ZONE 'AUS Eastern Standard Time' As datetime) as DateCol
